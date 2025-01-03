@@ -761,6 +761,10 @@ p {
   background: var(--secondary-clr);
   border: none;
   margin-bottom: 24px;
+  font-size: var(--common-size);
+  font-weight: var(--font-regular);
+  line-height: var(--para-line-height);
+  color: var(--para-clr);
 }
 
 .contact-form form .form-group textarea::placeholder,
@@ -859,7 +863,7 @@ p {
   line-height: 24px;
 }
 
-.footer-bottom .social-icon{
+.footer-bottom .social-icon {
   display: flex;
   gap: 16px;
 }
